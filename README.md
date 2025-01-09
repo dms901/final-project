@@ -49,7 +49,7 @@ Dengan project ini, kami bertujuan untuk menciptakan sebuah platform yang tidak 
     </tr>
     <tr>
       <td>3</td>
-      <td>19235079x</td>
+      <td>19235079</td>
       <td>Muchammad  Rizki Nugroho</td>
     </tr>
    
