@@ -1,0 +1,1058 @@
+/*
+Css untuk E-commerce.php
+*/
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menudown1:hover,
+.menudown2:hover,
+.btn_shoping:hover,
+.back-home:hover,
+.btn_akun:hover {
+    background-color: rgb(218, 114, 114);
+
+}
+
+
+
+.menu {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    background-color: rgb(48, 46, 46);
+    border-top-style: solid;
+    border-top-color: rgb(220, 30, 100);
+
+
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+}
+
+.menu1 {
+    float: left;
+    position: relative;
+    padding: 6px 16px;
+    color: white;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.menu2,
+.menudown1 {
+    float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 3px 16px;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.btn_pilih {
+    background: none;
+    border: none;
+    outline: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: 30px;
+
+}
+
+.menudown1,
+.menudown2 {
+    float: left;
+    overflow: hidden;
+}
+
+.menudown3 {
+    float: right;
+    overflow: hidden;
+}
+
+.menudown1-content {
+    left: 81px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 40px;
+
+
+
+}
+
+.menudown1-content a,
+.menudown2-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.menudown1-content a:hover,
+.menudown2-content a:hover,
+.btn_pilih:hover {
+    background-color: #b0abab;
+}
+
+.menudown1:hover .menudown1-content,
+.menudown2:hover .menudown2-content {
+    display: block;
+}
+
+.menu3,
+.menudown2 {
+    float: left;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 3px 16px;
+    color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.menudown2-content {
+    left: 178px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 40px;
+
+
+}
+
+.main-menu {
+
+    width: 100%;
+    height: 200px;
+}
+
+.layout-main-menu img {
+    object-fit: fill;
+    width: 100%;
+    height: 250px;
+
+}
+
+.shoping1 {
+    position: relative;
+    width: 26px;
+    height: 27px;
+
+
+
+
+}
+
+.btn_shoping {
+    outline: none;
+    border: none;
+    float: right;
+    background-color: inherit;
+    margin-left: 5px;
+    width: 60px;
+    height: 29px;
+
+}
+
+.btn_akun {
+    outline: none;
+    border: none;
+    float: right;
+    background-color: inherit;
+    margin-left: 5px;
+    width: 60px;
+    height: 29px;
+}
+
+.topvan-right {
+    float: right;
+    display: block;
+
+}
+
+.img_akun {
+
+    position: relative;
+    width: 26px;
+    height: 27px;
+
+
+}
+
+.footer {
+    border: 3px solid rgb(48, 46, 46);
+    border-top-color: rgb(220, 30, 100);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(48, 46, 46);
+
+}
+
+.footer-content {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Css untuk produk_detail.php*/
+.section {
+    padding: 10px 0;
+}
+
+.container_3 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container_3:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.col-2 {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.layout {
+    width: 100%;
+    min-height: 398px;
+    padding: 10px;
+    float: left;
+    border: 1px solid rgb(233, 77, 77);
+    border-color: #dc3c3c;
+    box-sizing: border-box;
+
+}
+
+.layout .nama {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.layout .descripsi {
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+.layout img {
+    width: 40%;
+    margin-left: 90px;
+
+}
+
+.layout .harga {
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: 55px;
+
+}
+
+.btn1 {
+    outline: none;
+    border: none;
+    float: left;
+    background-color: inherit;
+    position: relative;
+    width: 66px;
+    height: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.btn2 {
+    outline: none;
+    border: none;
+    float: left;
+    background-color: inherit;
+    width: 66px;
+    height: 30px;
+    margin-left: 60px;
+    position: relative;
+    bottom: 32px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: rgb(48, 46, 46);
+}
+
+.detail-box {
+    padding: 15px;
+    margin: 10px 0 25px 0;
+
+
+}
+
+.detail-box::after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+.detail-conten {
+    border: 2px solid rgb(220, 30, 100);
+    background-color: rgb(220, 30, 100);
+    border-top-color: rgb(48, 46, 46);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+
+
+.btn-1 {
+    border: 2px solid rgb(220, 30, 100);
+    background-color: rgb(220, 30, 100);
+    border-top-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 30px;
+}
+
+.back-home {
+    float: left;
+    position: relative;
+    padding: 7px 17px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Css Untuk form_upload1.php*/
+
+.container-up {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-up :after {
+    content: "";
+    display: block;
+}
+
+.layout-up {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+
+}
+
+.box-up {
+    min-width: 85%;
+    border: 2px solid rgb(220, 30, 100);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.batal-up,
+.submit {
+    border: none;
+    outline: none;
+    background-color: rgb(48, 46, 46);
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.submit:hover,
+.batal-up:hover {
+    background-color: rgb(220, 30, 100);
+}
+
+/*Css login.php dan register.php*/
+
+.container-login,
+.container-register {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login:after,
+.container-register:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.box-login,
+.box-register {
+    width: 100%;
+}
+
+
+.menu-login {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-register {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.table-login {
+    min-width: 30%;
+    min-height: 450px;
+    border: 2px solid rgb(220, 30, 100);
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 7px rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.table-register {
+    min-width: 30%;
+    min-height: 550px;
+    border: 2px solid rgb(220, 30, 100);
+    border-radius: 7px;
+    box-shadow: 7px 7px 7px 7px rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.table-login td,
+.table-register td {
+    padding: 20px;
+}
+
+
+.button-login {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 350px;
+
+}
+
+.button-register {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 460px;
+}
+
+.login-user,
+.register {
+    border: none;
+    outline: none;
+    background-color: rgb(48, 46, 46);
+    width: 350px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.register-user,
+.batal {
+    border: none;
+    outline: none;
+    background-color: rgb(48, 46, 46);
+    width: 350px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.login-user:hover,
+.register:hover,
+.register-user:hover {
+    background-color: rgb(220, 30, 100);
+}
+
+
+h3 {
+    display: flex;
+    position: relative;
+    left: 120px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CSS informasi_akun.php*/
+
+.container-akun {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-akun:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.layout-akun {
+    padding: 15px;
+    margin: 10px 0 25px 0;
+}
+
+.menu-akun {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-akun {
+    width: 30%;
+    min-height: 200px;
+    border-radius: 5px;
+    border: 2px solid rgb(48, 46, 46);
+
+}
+
+.img-infoakun {
+    width: 20%;
+    display: flex;
+    justify-self: center;
+}
+
+td {
+    text-align: center;
+}
+
+td .logout {
+    float: right;
+    height: 20px;
+    width: 60px;
+    text-decoration: none;
+    border: 1px solid rgb(48, 46, 46);
+    background-color: rgb(48, 46, 46);
+    color: white;
+    border-radius: 3px;
+}
+
+td .tambah-produk {
+    border: none;
+    outline: auto;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+td .logout:hover,
+.tambah-produk:hover {
+    background-color: rgb(220, 30, 100);
+}
+
+/* CSS tampilan.php*/
+
+.section-tampilan {
+    padding: 12px 0;
+}
+
+.container_2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container_2:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box {
+    padding: 15px;
+    margin: 10px 0 25px 0;
+
+}
+
+
+.box:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+
+
+
+
+.col-4 img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.col-4 .nama {
+    color: #666;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px
+}
+
+.col-4 .harga {
+    font-weight: bold;
+    color: #c70039;
+    float: right;
+    position: relative;
+
+}
+
+.col-4:hover {
+    background-color: #dcdcdc;
+}
+
+/*CSS keranjang.php*/
+.container-keranjang {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-keranjang:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+.layout-keranjang {
+    padding: 10px 10px 10px 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.table-keranjang {
+    max-width: 90%;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(220, 30, 100);
+    border-radius: 5px;
+
+}
+
+.table-keranjang img {
+    width: 240px;
+    padding: 10px;
+
+}
+
+.table-keranjang button {
+    background-color: rgb(220, 30, 100);
+    border: none;
+    outline: none;
+    width: 50px;
+    min-height: 20px;
+    border-radius: 5px;
+    margin: 2px 2px 0 0;
+    color: white;
+    float: right;
+}
+
+.table-keranjang button:hover {
+    background-color: rgb(48, 46, 46);
+
+}
+
+.des-size {
+    text-align: left;
+    padding: 10px;
+    width: 400px;
+}
+
+.keranjang-harga {
+    color: rgb(220, 30, 100);
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.container-popup {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-popup:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+    width: 400px;
+    min-height: 73%;
+    margin: 7% auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px 7px rgb(0, 0, 0, 0.8);
+    position: relative;
+    animation: animatetop 0.4s;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Pembuatan Animasi dari atas kebawah*/
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.popup-beli {
+    padding: 10px;
+    min-width: 100%;
+}
+
+.content-beli img {
+    width: 140px;
+    float: left;
+}
+
+.content-beli button {
+    float: right;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+.alamat-pengirim {
+
+    background-color: #b6b6b6;
+    min-height: 50px;
+
+}
+
+.alamat-pengirim h2 {
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #666;
+
+}
+
+.alamat-pengirim img {
+    max-width: 30px;
+}
+
+.close-1,
+.check-out {
+    position: relative;
+    background-color: inherit;
+    color: white;
+    border: none;
+    float: right;
+    padding-right: 5px;
+    bottom: 18px;
+    height: 39px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.harga-total {
+    float: left;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    color: white;
+    padding-left: 10px;
+
+}
+
+.close-1:hover,
+.check-out:hover {
+    background-color: rgb(48, 46, 46);
+}
+
+.content-harga {
+    background-color: rgb(220, 30, 100);
+    position: relative;
+    top: 30px;
+    height: 40px;
+}
+
+.hiden-samar {
+    display: none;
+}
+
+.content-bayar b,
+.content-jasa b {
+    float: left;
+    padding-left: 41px;
+    padding-top: 5px;
+}
+
+.content-jasa select,
+.content-bayar select {
+    border: none;
+    background-color: #b6b6b6;
+
+
+}
+
+.content-bayar,
+.content-jasa {
+    padding-bottom: 30px;
+    background-color: #b6b6b6;
+    border-top-style: solid;
+    border-top-color: #666;
+    margin-top: 10px;
+}
+
+.layout-barContent {
+    float: right;
+    width: 30px;
+    margin-right: 30px;
+}
+
+.layout-barContent:hover {
+    background-color: rgb(218, 114, 114);
+}
+
+.container-menu3 {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0 0 2px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+}
+
+
+
+.change .menu-new-content {
+    display: block;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    right: 20px;
+    top: 40px;
+    min-width: 25%;
+    min-height: 13%;
+    overflow: auto;
+    background-color: white;
+    background-color: white;
+    animation: animateheight 0.7s;
+}
+
+@keyframes animateheight {
+    from {
+        height: -13%;
+        opacity: 0
+    }
+
+    to {
+        height: 13%;
+        opacity: 1
+    }
+}
+
+.btn-info-akun {
+    position: relative;
+    margin-left: 12%;
+    text-align: left;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-new-keranjang {
+    position: relative;
+    margin-left: 12%;
+    text-align: left;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.new-img-akun {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.new-img-krj {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    margin-top: 10px;
+}
+
+.btn-info-akun:hover,
+.btn-new-keranjang:hover {
+    background-color: #b0abab;
+}
+
+@media screen and (max-width: 2045px) {
+    .btn_shoping {
+        display: block;
+    }
+
+    .btn_akun {
+        display: block;
+    }
+
+    .container-menu3 {
+        display: none;
+    }
+
+    .col-4 {
+        width: 280px;
+        height: 450px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        float: left;
+        margin: center;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        position: relative;
+        left: 40px;
+
+
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .btn_shoping {
+        display: none;
+    }
+
+    .btn_akun {
+        display: none;
+    }
+
+    .container-menu3 {
+        display: inline-block;
+    }
+
+    .col-4 {
+        width: 170px;
+        height: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        float: left;
+        margin: center;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        position: relative;
+        left: 5px;
+    }
+
+}
