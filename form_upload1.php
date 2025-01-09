@@ -21,7 +21,7 @@ if(!isset($_SESSION['user'])){
 <body>
 
     <div class="menu" border="1" >
-        <button class="back-home"onclick="window.history.go(-1);">Back</button>
+        <button class="back-home"onclick="window.history.go(-1);">BACK</button>
     </div>
 
     <div class="section">

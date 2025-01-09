@@ -79,6 +79,10 @@ Dengan project ini, kami bertujuan untuk menciptakan sebuah platform yang tidak 
 <td><h3 align="center">Register</h3><img src="foto/register.png"></td>
 </tr>
 <tr>
+<td><h3 align="center">Menu Akun Admin</h3><img src="foto/akun_admin.png"></td>
+<td><h3 align="center">Menu Akun User</h3><img src="foto/akun_user.png"></td>
+</tr>
+<tr>
 <td><h3 align="center">Menu Home</h3><img src="foto/menu_home.png"></td>
 <td><h3 align="center">Menu Home</h3><img src="foto/home_bawa.png"></td>
 </tr>
@@ -93,6 +97,9 @@ Dengan project ini, kami bertujuan untuk menciptakan sebuah platform yang tidak 
 <tr>
 <td><h3 align="center">Menu Baju Wanita</h3><img src="foto/wanita_baju.png"></td>
 <td><h3 align="center">Menu Celana Wanita</h3><img src="foto/wanita_celana.png"></td>
+</tr>
+<tr>
+<td><h3 align="center">Menu Tambah Produk</h3><img src="foto/menu_upload_produk.png"></td>
 </tr>
 </table>
 
