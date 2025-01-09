@@ -74,7 +74,7 @@ Dengan project ini, kami bertujuan untuk menciptakan sebuah platform yang tidak 
 
 ## Screenshot
 <table width="100%">
-<tr>
+<tr align="center">
 <td><h3 align="center">Login</h3><img src="foto/login.png"></td>
 <td><h3 align="center">Register</h3><img src="foto/register.png"></td>
 </tr>
