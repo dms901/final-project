@@ -73,8 +73,8 @@ Dengan project ini, kami bertujuan untuk menciptakan sebuah platform yang tidak 
 <!-- Sesuaikan dengan hak akses dari project masing-masing kelompok -->
 
 ## Screenshot
-<table width="100%">
-<tr align="center">
+<table width="100%" align="center">
+<tr>
 <td><h3 align="center">Login</h3><img src="foto/login.png"></td>
 <td><h3 align="center">Register</h3><img src="foto/register.png"></td>
 </tr>
