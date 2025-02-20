@@ -19,7 +19,7 @@ if(!isset($_SESSION['user'])){
     <script type="text/javascript" src="javascript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   
-    <title>Document</title>
+    <title>E-Commerce</title>
 </head>
 
 <body>
